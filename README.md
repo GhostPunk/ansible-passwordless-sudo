@@ -35,4 +35,4 @@ Apache
 Author Information
 ------------------
 
-Jason McVetta <jason.mcvetta@gmail.com>
+[Jason McVetta](jason.mcvetta@gmail.com)
