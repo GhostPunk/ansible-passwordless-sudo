@@ -35,4 +35,7 @@ Apache
 Author Information
 ------------------
 
-[Jason McVetta](jason.mcvetta@gmail.com)
+[Jason McVetta](mailto:jason.mcvetta@gmail.com)
+
+Paid support and consulting services available from [Silicon
+Heavy](http://siliconheavy.com)
