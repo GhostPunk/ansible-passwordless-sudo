@@ -1,2 +1,12 @@
 ---
-# tasks file for jason.mcvetta.passwordless-sudo
+
+- name: Ensure sudo group exists
+  group:
+    name: sudo
+    state: present
+
+- name: Ensure users in sudo group can sudo without password
+  template:
+    src: 95-sudo-group.j2
+    dest: /etc/sudoers.d/95-sudo-group
+
