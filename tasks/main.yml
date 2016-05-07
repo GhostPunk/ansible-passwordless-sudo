@@ -1,3 +1,4 @@
+# vim:ft=ansible:
 ---
 
 - name: Ensure sudo group exists
@@ -9,4 +10,4 @@
   template:
     src: 95-sudo-group.j2
     dest: /etc/sudoers.d/95-sudo-group
-
+    mode: 0440
